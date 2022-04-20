@@ -10,8 +10,6 @@ class MainViewModel : ViewModel() {
     private val todoRepository : TodoRepository = TodoRepository()
 
     fun getFirstToDo():LiveData<ToDo> {
-        return todoRepository.getTodo(1)
     }
 
-    fun getFirstTodo() = liveData
 }
