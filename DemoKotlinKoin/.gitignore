@@ -10,9 +10,13 @@
 /.idea/compiler.xml
 /.idea/vcs.xml
 /.idea/misc.xml
+/.idea/gradle.xml
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+gradlew
+gradlew.bat
+/app/.gitignore
